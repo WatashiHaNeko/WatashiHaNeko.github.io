@@ -8,8 +8,150 @@
   </head>
   
   <body>
-    
+    <header>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center" style="font-size: 1rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" width="13.75" height="20" fill="currentColor" stroke="none" class="mr-2" focusable="false" aria-hidden="true">
+              <path d="M176 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96zm160-160h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16z" />
+            </svg>
+
+            <strong>声に出して読ませたい日本語</strong>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="font-weight-light">
+              <span class="d-block">声に出して読ませたい</span>
+
+              <span class="d-block lh-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" fill="currentColor" stroke="none" class="my-2 text-danger" style="width: 1em; height: 1em; font-size: 1.5em;" focusable="false" aria-hidden="true">
+                  <path d="M320.2 243.8l-49.7 99.4c-6 12.1-23.4 11.7-28.9-.6l-56.9-126.3-30 71.7H60.6l182.5 186.5c7.1 7.3 18.6 7.3 25.7 0L451.4 288H342.3l-22.1-44.2zM473.7 73.9l-2.4-2.5c-51.5-52.6-135.8-52.6-187.4 0L256 100l-27.9-28.5c-51.5-52.7-135.9-52.7-187.4 0l-2.4 2.4C-10.4 123.7-12.5 203 31 256h102.4l35.9-86.2c5.4-12.9 23.6-13.2 29.4-.4l58.2 129.3 49-97.9c5.9-11.8 22.7-11.8 28.6 0l27.6 55.2H481c43.5-53 41.4-132.3-7.3-182.1z" />
+                </svg>
+              </span>
+
+              <span class="d-block">声に出して読みたい</span>
+            </h1>
+
+            <p class="lead text-muted mt-4">
+              <span class="d-block">「声に出して読ませたい日本語」は、</span>
+              <span class="d-block">声に出して読んでほしい文と</span>
+              <span class="d-block">声に出して読んでみたい人を</span>
+              <span class="d-block">つなげるサービスです。</span>
+            </p>
+
+            <p>
+              <a href="javascript: alert('Twitterでシェアできる');" class="btn btn-primary my-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" fill="currentColor" stroke="none" class="align-text-bottom" style="width: 1em; height: 1em;" focusable="false" aria-hidden="true">
+                  <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                </svg>
+
+                <span>Twitterでシェア</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-5 bg-light">
+        <div class="container">
+          <h2 class="mb-4 h4 text-center">過去１時間で人気の日本語</h2>
+
+          <div class="row" data-masonry='{"percentPosition": true }'>
+            <div class="col-sm-6 col-lg-4 mb-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <a href="javascript: alert('詳細画面へ：音声一覧とか投稿とかコメントとかいいねとかする');">
+                    <h5 class="card-title">おはよう❤️</h5>
+                  </a>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="text-muted" style="font-size: .75rem;">投稿数: 4</span>
+                      <span class="text-muted" style="font-size: .75rem;">閲覧数: 624</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <a href="javascript: alert('詳細画面へ：音声一覧とか投稿とかコメントとかいいねとかする');">
+                    <h5 class="card-title">おやすみ❤️</h5>
+                  </a>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="text-muted" style="font-size: .75rem;">投稿数: 4</span>
+                      <span class="text-muted" style="font-size: .75rem;">閲覧数: 624</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <a href="javascript: alert('詳細画面へ：音声一覧とか投稿とかコメントとかいいねとかする');">
+                    <h5 class="card-title">おつかれさま❤️</h5>
+                  </a>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="text-muted" style="font-size: .75rem;">投稿数: 4</span>
+                      <span class="text-muted" style="font-size: .75rem;">閲覧数: 624</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <a href="javascript: alert('詳細画面へ：音声一覧とか投稿とかコメントとかいいねとかする');">
+                    <h5 class="card-title">おはよう❤️</h5>
+                  </a>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="text-muted" style="font-size: .75rem;">投稿数: 4</span>
+                      <span class="text-muted" style="font-size: .75rem;">閲覧数: 624</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 text-center">
+            <a href="javascript: alert('読み込みません');">さらに読み込む</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="m-0">
+          <span>声に出して読ませたい日本語は動いていません。</span>
+          <a href="https://neko.report">@watashi_ha_neko</a>
+          <span>が暇な時に開発される予定です。</span>
+        </p>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
   </body>
 </html>
+
